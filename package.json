@@ -1,0 +1,23 @@
+{
+  "name": "1-starter",
+  "version": "1.0.0",
+  "description": "Start with ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "QQ",
+    "Javascript"
+  ],
+  "author": "Quyen Dang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
