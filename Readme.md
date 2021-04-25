@@ -1,3 +1,5 @@
+# Design By Dang Tran Quyen - SDT:0337846412
+
 # Setup NodeJS: nodejs + npm (node package manager)
 
 https://nodejs.org/en/
