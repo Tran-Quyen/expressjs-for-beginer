@@ -17,9 +17,15 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.1"
+    "express-handlebars": "^5.2.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.7",
+    "mongoose-delete": "^0.5.3",
+    "mongoose-slug-generator": "^1.0.4"
   },
   "devDependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
     "morgan": "^1.10.0",
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7"

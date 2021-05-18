@@ -87,3 +87,9 @@ create nodemon.json and add this
 # Add Bootstrap 4
 
 Link: https://getbootstrap.com/docs/4.0/
+
+# Prettier Extension
+# lint-staged and husky => Co the tim hieu them dung khi xai git ma chua dung format prettier se auto format
+$ npm i lint-staged husky --save-dev
+# Install mongoose
+$ npm i mongoose
