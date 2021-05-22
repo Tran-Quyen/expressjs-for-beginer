@@ -91,5 +91,34 @@ Link: https://getbootstrap.com/docs/4.0/
 # Prettier Extension
 # lint-staged and husky => Co the tim hieu them dung khi xai git ma chua dung format prettier se auto format
 $ npm i lint-staged husky --save-dev
-# Install mongoose
+# Install mongoose => interact with mongodb
 $ npm i mongoose
+# Library
+mongoose-delete => soft delete
+mongoose-slug-generator => generator slug for path in uri
+mongoose-sequence => auto increment field in db for sort
+# Middleware
+### Ý nghĩa
+- Phần mềm trung gian (đứng giữa các thành phần trong mô hình phần mềm)
+- Browser (client) ============= Request ==============> Server(Node)
+  ||                                                          ||
+  ||                                                          ||
+  ||                                                          ||
+- Browser (client) <============ Response =============== Server(Node)
+### Vai trò
+- Giống như 'Người Gác Cổng' => Guard
+- Home ===========================> Guard 1(middleware 1):Guard 2(middleware 2):Guard n(middleware n): Event
+  ||                                  ||
+  ||                                  ||
+  ||                                  ||
+- Home <=========================== Event
+1. Soát vé (kiểm soát -> Validation)
+2. Không cho vào
+3. Cho phép vào (Validation passed -> cho vào)
+4. Chỉnh sửa/thay đổi
+5. Có thể có nhiều Guard (middleware) (multiple guard hay multiple middleware)
+
+### Ứng dụng
+- Dựng chức năng xác thực (Authentication)
+- Dựng chức năng phân quyền (Authorization)
+- Để share các giá trị của biến tới tất cả các views (BE)
