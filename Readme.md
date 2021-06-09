@@ -97,6 +97,8 @@ $ npm i mongoose
 mongoose-delete => soft delete
 mongoose-slug-generator => generator slug for path in uri
 mongoose-sequence => auto increment field in db for sort
+# vendor
+bs4 suggest => iconic => icon font
 # Middleware
 ### Ý nghĩa
 - Phần mềm trung gian (đứng giữa các thành phần trong mô hình phần mềm)
